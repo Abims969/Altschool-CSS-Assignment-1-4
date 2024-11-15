@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(84, 3, 3);
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px 250px;
+  gap: 50px 50px;
+  width: 95%;
+}
+
+section > div {
+  background-color: rgb(231, 199, 153);
+  border-radius: 50px;
+  border: 10px solid rgba(255, 224, 163, 0.705);
+}
+
+div {
+  background-color: blue;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+div:hover {
+  transform: scale(1.1) rotate(0.2deg); /* Transformation: Scale and rotate */
+}
+
+a {
+  color: rgb(107, 8, 8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 2.5em;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 80px;
+}
+
+a:hover {
+  color: brown;
+}

@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html,body */
+html,
+body {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* section */
+#divone {
+  background-color: #a7a8cd;
+  padding: 1rem;
+  margin: 5% auto;
+  max-width: 55%;
+  border: 10px solid #e5e7eb;
+}
+
+/* Header */
+.text {
+  background-color: blanchedalmond;
+  border-radius: 0px 15px 15px 0px;
+  margin: 10px 0 0 -20px;
+  width: 13%;
+  text-align: center;
+  position: absolute;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+/* Wristwatch image */
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* subsection */
+#divtwo {
+  width: 50%;
+  margin: 2% auto;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+/* Text heading */
+#paradiv {
+  display: flex;
+  padding: 1.5rem;
+}
+
+/* Text heading span*/
+.span {
+  opacity: 0.5;
+}
+
+/* paragraph */
+.paratwo {
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Responsiveness for mobile */
+
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+    margin-top: 10%;
+  }
+
+  #divone {
+    background-color: #a7a8cd;
+    padding: 1rem;
+    margin: 18px;
+    max-width: 100%;
+    border: 10px solid #e5e7eb;
+  }
+
+  #divtwo {
+    width: 70%;
+    margin: 2% auto;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+
+  .text {
+    width: 30%;
+  }
+
+  .span {
+    margin: 8px 0 0 8px;
+    opacity: 0.5;
+  }
+
+  .paratwo {
+    padding-top: 0.2rem;
+  }
+}
+
+/* Responsiveness for tablet */
+@media only screen and (min-width: 768px) {
+  html,
+  body {
+    margin-top: 15%;
+  }
+
+  .span {
+    margin-left: -15px;
+    margin-top: 10px;
+    opacity: 0.5;
+  }
+
+  .paratwo {
+    padding-top: 0.3rem;
+  }
+}
+
+/* Responsiveness for desktop */
+@media only screen and (min-width: 1200px) {
+  body,
+  html {
+    margin-top: 65px;
+  }
+
+  .span {
+    padding-left: 25px;
+    margin-top: 6px;
+  }
+
+  .paratwo {
+    margin-top: -20px;
+  }
+
+  .span {
+    opacity: 0.5;
+  }
+}
+
+/* html, body {
+
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 10px;
+        color: #333;
+        background-color: whitesmoke;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* section {
+        background-color: rgb(174, 170, 195);
+    } */
+
+/* #divone {
+        background-color: rgb(174, 170, 195);
+    }
+ 
+    #divtwo {
+        background-color: whitesmoke;
+    }
+ 
+    h2 {
+        background-color: blanchedalmond;
+    } */
